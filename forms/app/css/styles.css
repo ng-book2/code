@@ -1,0 +1,31 @@
+@import "semantic.min.css"
+
+/* forms css styles */
+
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}
+
+/* by default, semantic UI hides these unless the whole form is in the same
+state. we don't want to impose that requirement */
+.ui.form .error.message,
+.ui.form .success.message,
+.ui.form .warning.message {
+  display: block;
+}
+
+.segment {
+  margin: 1em 0;
+}
+
+.ui.segment:last-child {
+    margin-bottom: 1em;
+}
+.ui.segment:first-child {
+    margin-top: 1em;
+}
+
+.dotted {
+  border: 2px dotted green;
+  background-color: yellow;
+}

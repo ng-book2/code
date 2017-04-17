@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Angular 2 - Forms: Forms Demo App</title>
+    <link rel="icon" type="image/png" href="/resources/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/resources/images/favicon.ico" />
+
+    {% for (var css in o.htmlWebpackPlugin.files.css) { %}
+      <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
+    {% } %}
+  </head>
+  <body>
+
+    <!-- Menu Bar -->
+    <div class="ui menu">
+      <div class="ui container">
+        <a href="#" class="header item">
+          <img class="logo" src="/images/ng-book-2-minibook.png">
+          ng-book 2
+        </a>
+        <div class="header item borderless">
+          <h1 class="ui header">
+            Angular 2 Forms Example
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui main text container">
+      <forms-demo-app></forms-demo-app>
+    </div>
+
+    <script src="/core.js"></script>
+    <script src="/vendor.js"></script>
+    <script src="/bundle.js"></script>
+  </body>
+</html>

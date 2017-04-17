@@ -1,0 +1,11 @@
+{
+  "name": "ng-hybrid-pinterest",
+  "version": false,
+  "ambientDependencies": {
+    "underscore": "github:DefinitelyTyped/DefinitelyTyped/underscore/underscore.d.ts#38fb591c6eba840e0b53d1110302b8e4fb04651c",
+    "angular-ui-router": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-router/angular-ui-router.d.ts#ba257a9b91bc0de1bdd9091b6723194c905a902a",
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#ba257a9b91bc0de1bdd9091b6723194c905a902a",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#ba257a9b91bc0de1bdd9091b6723194c905a902a",
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654"
+  }
+}

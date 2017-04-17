@@ -1,0 +1,8 @@
+{
+  "name": "ng-book2-inventory-app",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654"
+  }
+}

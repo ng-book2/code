@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ng-book 2: Interest</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sf.css">
+  <link rel="stylesheet" href="css/interest.css">
+</head>
+<body class="container-fullwidth">
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Interest <small>what you're interested in</small></h1>
+
+      <div class="navLinks">
+        <a ui-sref='home' id="navLinkHome">Home</a>
+        <a ui-sref='add' id="navLinkAdd">Add</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    <div ui-view=''></div>
+  </div>
+
+  <!-- Libraries -->
+  <script src="node_modules/core-js/client/shim.min.js"></script>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+  <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-ui-router.js"></script>
+
+  <!-- Configure System.js, our module loader -->
+
+  <script src="resources/systemjs.config.js"></script>
+  <script>
+    System.import('ts/app.js')
+          .then(null, console.error.bind(console));
+  </script>
+
+</body>
+</html>

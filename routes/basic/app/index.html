@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <base href="/">
+    <title>ng-book 2: Angular 2 Router</title>
+
+    {% for (var css in o.htmlWebpackPlugin.files.css) { %}
+      <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
+    {% } %}
+  </head>
+  <body>
+    <router-app></router-app>
+    <script src="/core.js"></script>
+    <script src="/vendor.js"></script>
+    <script src="/bundle.js"></script>
+  </body>
+</html>

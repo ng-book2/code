@@ -1,0 +1,12 @@
+{
+  "name": "ng-book-2-http",
+  "version": false,
+  "ambientDependencies": {
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#b2345aee407127928f247165c91e18bd7dc1a14a",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#b2345aee407127928f247165c91e18bd7dc1a14a",
+    "underscore": "github:DefinitelyTyped/DefinitelyTyped/underscore/underscore.d.ts#38fb591c6eba840e0b53d1110302b8e4fb04651c",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#5d0f2126c8dac8fce0ff020218aea06607213b0d",
+    "core-js": "registry:dt/core-js#0.0.0+20160317120654",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#8cf8164641be73e8f1e652c2a5b967c7210b6729"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "ng-book2-inventory-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -f ./*.js; rm -f ./*.js.map",
+    "tsc": "./node_modules/.bin/tsc",
+    "tsc:w": "./node_modules/.bin/tsc -w",
+    "serve": "./node_modules/.bin/live-server --host=localhost --port=8080 .",
+    "go": "concurrent \"npm run tsc:w\" \"npm run serve\" "
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.4.1",
+    "@angular/compiler": "2.4.1",
+    "@angular/core": "2.4.1",
+    "@angular/forms": "2.4.1",
+    "@angular/http": "2.4.1",
+    "@angular/platform-browser": "2.4.1",
+    "@angular/platform-browser-dynamic": "2.4.1",
+    "@angular/router": "3.4.1",
+    "@angular/router-deprecated": "2.0.0-rc.2",
+    "@types/jasmine": "2.5.40",
+    "core-js": "2.4.1",
+    "es6-shim": "0.35.0",
+    "reflect-metadata": "0.1.9",
+    "rxjs": "5.0.2",
+    "systemjs": "0.19.6",
+    "ts-helpers": "1.1.1",
+    "tslint": "3.7.0-dev.2",
+    "typings": "0.8.1",
+    "zone.js": "0.7.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.2.30",
+    "@types/node": "6.0.42",
+    "concurrently": "1.0.0",
+    "jasmine-spec-reporter": "2.5.0",
+    "live-server": "0.9.0",
+    "protractor": "4.0.9",
+    "ts-node": "1.2.1",
+    "typescript": "2.0.3"
+  }
+}

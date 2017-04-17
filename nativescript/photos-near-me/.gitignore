@@ -1,0 +1,10 @@
+.idea
+.vscode
+hooks
+lib
+node_modules
+platforms
+*.js
+*.js.map
+.DS_Store
+~*

@@ -1,0 +1,17 @@
+{
+  "name": "ng1-pinterest",
+  "version": "0.0.1",
+  "description": "toy pinterest clone in ng1",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "serve": "./node_modules/.bin/live-server --host=localhost --port=8080 .",
+    "go": "npm run serve"
+  },
+  "author": "Nate Murray <nate@fullstack.io>",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "live-server": "^0.9.0"
+  }
+}

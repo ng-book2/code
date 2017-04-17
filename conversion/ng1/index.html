@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='interestApp'>
+<head>
+  <meta charset="utf-8">
+  <title>Interest</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sf.css">
+  <link rel="stylesheet" href="css/interest.css">
+</head>
+<body class="container-fullwidth">
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Interest <small>what you're interested in</small></h1>
+
+      <div class="navLinks">
+        <a ui-sref='home' id="navLinkHome">Home</a>
+        <a ui-sref='add' id="navLinkAdd">Add</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    <div ui-view=''></div>
+  </div>
+
+  <script src="js/vendor/lodash.js"></script>
+  <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-ui-router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

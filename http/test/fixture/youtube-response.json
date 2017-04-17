@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": { "videoId": "VIDEO_ID" },
+      "snippet": {
+        "title": "TITLE",
+        "description": "DESCRIPTION",
+        "thumbnails": {
+          "high": { "url": "THUMBNAIL_URL" }
+        }
+      }
+    }
+  ]
+}

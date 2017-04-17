@@ -1,0 +1,84 @@
+{
+  "name": "ng-book 2 code directory",
+  "description": "This file is an index of the sample code",
+  "chapters": [
+    {
+      "name": "Writing your First Angular 2 Web Application",
+      "examples": [
+        "first_app/angular2_hello_world",
+        "first_app/angular2_reddit"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "examples": []
+    },
+    {
+      "name": "How Angular Works",
+      "examples": ["how_angular_works/inventory_app"]
+    },
+    {
+      "name": "Built-in Directives",
+      "examples": ["built_in_directives"]
+    },
+    {
+      "name": "Forms in Angular 2",
+      "examples": ["forms"]
+    },
+    {
+      "name": "Data Architecture in Angular 2",
+      "examples": []
+    },
+    {
+      "name": "Data Architecture with Observables - Part 1: Services",
+      "examples": ["rxjs/chat"]
+    },
+    {
+      "name": "Data Architecture with Observables - Part 2: View Components",
+      "examples": []
+    },
+    {
+      "name": "Data Architecture with Redux",
+      "examples": ["redux/angular2-redux-chat"]
+    },
+    {
+      "name": "HTTP",
+      "examples": ["http"]
+    },
+    {
+      "name": "Routing",
+      "examples": [
+        "routes/basic",
+        "routes/music",
+        "routes/auth",
+        "routes/nested"
+      ]
+    },
+    {
+      "name": "Converting an Angular 1 App to Angular 2",
+      "examples": [
+        "conversion/hybrid"
+      ]
+    },
+    {
+      "name": "Testing",
+      "examples": []
+    },
+    {
+      "name": "Advanced Components",
+      "examples": [
+        "advanced_components"
+      ]
+    },
+    {
+      "name": "Dependency Injection",
+      "examples": [
+        "dependency_injection/simple",
+        "dependency_injection/complex",
+        "dependency_injection/injector",
+        "dependency_injection/misc",
+        "dependency_injection/value"
+      ]
+    }
+  ]
+}

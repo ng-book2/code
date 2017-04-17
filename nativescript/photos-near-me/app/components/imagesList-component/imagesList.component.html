@@ -1,0 +1,28 @@
+<ActionBar title="Photos" class="action-bar"></ActionBar>
+<StackLayout>
+    <GridLayout columns="*" rows="*, 280">
+        <ListView [items]="photos" row="0" col="0" class="list-group" (itemTap)="centerMap($event)">
+            <template let-item="item">
+                <GridLayout columns="auto, *" rows="auto" class="list-group-item">
+                    <Image [src]="item.url_q" width="50" height="50" col="0" class="thumb img-rounded"></Image>
+                    <StackLayout row="0" col="1">
+                        <Label [text]="item.distance + ' away'" class="list-group-item-heading"></Label>
+                        <Label [text]="item.title" class="list-group-item-text" textWrap="true"></Label>
+                    </StackLayout>
+                </GridLayout>
+            </template>
+        </ListView>
+        <ContentView row="1" col="0">
+            <Mapbox
+                accessToken="{{ mapboxKey }}"
+                mapStyle="streets"
+                zoomLevel="17"
+                latitude="52.3702160"
+                longitude="4.8951680"
+                hideLogo="true"
+                showUserLocation="true"
+                (mapReady)="onMapReady($event)">
+            </Mapbox>
+        </ContentView>
+    </GridLayout>
+</StackLayout>

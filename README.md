@@ -1,24 +1,11 @@
-# ng-book 2: The Complete Guide to Angular 2 Sample Code
+# Angular权威教程（ng-book2）范例代码
 
-## Organization
+这是《Angular权威指南》的随书源码。请结合此书进行阅读和练习。
 
-Hi! Here's the sample code for the book.
+## 试运行
 
-It's organized by `chapter/topic`. Generally, in the book we call out where you can find each code example. 
+大多数的目录下都有一个`README.md`文件，可参照其中的命令进行试运行。由于部分依赖包位于AWS S3服务器上，所以国内可能无法正常运行，请参照 <https://npm.taobao.org/> 上的指引，安装`cnpm`，并且使用`cnpm install`命令代替相应的`npm install`命令进行安装。
 
-## Running the code
+## 授权协议
 
-We're still unifying how each example should be run. Generally, you'll need to `npm install` and then see the `README.md` in each project for instructions to get the example going.
-
-## THIS IS AN EARLY RELEASE
-
-Angular 2 is still very young so some of the API is probably going to change. Also, we're still normalizing a build process for these examples, sorry for any clutter you might find.
-We'll send you an email when we have updates available.
-
-## Feedback & Bug Reports
-
-We're currently developing the book and this code. If you have any feedback on things that aren't clear, or find any bugs just email us at: us@fullstack.io
-
-Cheers!
-
-Nate, Felipe, and the ng-book 2 team
+部分目录下的源码有一个`LICENSE.md`文件，采用MIT协议的源码都可以全部或部分用在你自己的项目中，但需要遵循MIT协议的要求。
